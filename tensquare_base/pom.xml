@@ -11,8 +11,8 @@
 
     <artifactId>tensquare_base</artifactId>
     <dependencies>
-       <!-- 导入项目运行所需要的jar包
-        导入JPA-->
+        <!--导入项目运行所需要的jar包-->
+        <!--导入JPA-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -24,20 +24,17 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <!--连接MySQL数据库-->
-        <!--<dependency>
+       <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-        </dependency>
+          <!--<dependency>
+               <groupId>org.springframework.cloud</groupId>
+               <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+           </dependency>-->
 
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-config</artifactId>
-        </dependency>-->
     </dependencies>
+
 
 
 </project>

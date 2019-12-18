@@ -1,8 +1,0 @@
-server:
-  port: 9001
-spring:
-  application:
-    name: tensquare-bases
-  datasource:
-    driver-class-name:
-    url:
