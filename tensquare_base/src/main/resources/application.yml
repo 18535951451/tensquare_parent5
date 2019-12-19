@@ -9,6 +9,6 @@ spring:
     #指定服务的名称
   application:
     name: tensquare_base
-#jpa:
-    ##    database: mysql
-    ##    show-sql: true
+  jpa:
+       database: mysql
+       show-sql: true
