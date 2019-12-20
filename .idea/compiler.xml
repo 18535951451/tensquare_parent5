@@ -8,21 +8,27 @@
         <outputRelativeToContentRoot value="true" />
         <module name="tensquare_base" />
         <module name="tensquare_recruit2" />
+        <module name="tensquare_qa" />
         <module name="tensquare_common" />
+        <module name="tensquare_article" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="tensquare_article" target="1.8" />
       <module name="tensquare_base" target="1.8" />
       <module name="tensquare_common" target="1.8" />
       <module name="tensquare_parent" target="1.8" />
+      <module name="tensquare_qa" target="1.8" />
       <module name="tensquare_recruit" target="1.8" />
       <module name="tensquare_recruit2" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="tensquare_article" options="-parameters" />
       <module name="tensquare_base" options="-parameters" />
       <module name="tensquare_common" options="-parameters" />
+      <module name="tensquare_qa" options="-parameters" />
       <module name="tensquare_recruit" options="-parameters" />
       <module name="tensquare_recruit2" options="-parameters" />
     </option>
