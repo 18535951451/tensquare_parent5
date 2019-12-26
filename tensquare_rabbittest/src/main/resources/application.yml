@@ -1,0 +1,5 @@
+server:
+  port: 8003
+spring:
+  rabbitmq:
+    host: 111.229.5.238

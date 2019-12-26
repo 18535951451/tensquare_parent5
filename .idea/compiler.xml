@@ -6,10 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="tensquare_article" />
+        <module name="tensquare_sms" />
         <module name="tensquare_recruit2" />
         <module name="tensquare_base" />
+        <module name="tensquare_rabbittest" />
+        <module name="tensquare_article" />
+        <module name="tensquare_spit" />
         <module name="tensquare_qa" />
+        <module name="tensquare_user" />
+        <module name="tensquare_search" />
         <module name="tensquare_gathering" />
         <module name="tensquare_common" />
       </profile>
@@ -21,8 +26,13 @@
       <module name="tensquare_gathering" target="1.8" />
       <module name="tensquare_parent" target="1.8" />
       <module name="tensquare_qa" target="1.8" />
+      <module name="tensquare_rabbittest" target="1.8" />
       <module name="tensquare_recruit" target="1.8" />
       <module name="tensquare_recruit2" target="1.8" />
+      <module name="tensquare_search" target="1.8" />
+      <module name="tensquare_sms" target="1.8" />
+      <module name="tensquare_spit" target="1.8" />
+      <module name="tensquare_user" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -32,8 +42,13 @@
       <module name="tensquare_common" options="-parameters" />
       <module name="tensquare_gathering" options="-parameters" />
       <module name="tensquare_qa" options="-parameters" />
+      <module name="tensquare_rabbittest" options="-parameters" />
       <module name="tensquare_recruit" options="-parameters" />
       <module name="tensquare_recruit2" options="-parameters" />
+      <module name="tensquare_search" options="-parameters" />
+      <module name="tensquare_sms" options="-parameters" />
+      <module name="tensquare_spit" options="-parameters" />
+      <module name="tensquare_user" options="-parameters" />
     </option>
   </component>
 </project>
